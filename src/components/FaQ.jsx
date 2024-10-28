@@ -13,32 +13,32 @@ const FaQ = () => {
                         
                     </div>
                     <div className="questions">
-                        <div className="question1">
+                        <div className="faq-card">
+                            <div className="question" id="question1">
                             <h4>Is any of my personal information stored in the App?</h4>
-                            <a className="discovermore" href="#">
-                                <span className="btn-circle">
+                                <button className="btn-circle">
                                     <i className="fa-solid fa-chevron-down"></i>
-                                </span>
-                            </a>
+                                </button>
+                            </div>
+                                <div className="answer" id="text1">
+                                    <p>Nunc duis id aenean gravida tincidunt eu, tempor
+                                    ullamcorper. Viverra aliquam arcu, viverra et,
+                                    cursus. Aliquet pretium cursus adipiscing gravida
+                                    et consequat lobortis arcu velit. Nibh pharetra
+                                    fermentum duis accumsan lectus non. Massa
+                                    cursus molestie lorem scelerisque pellentesque.
+                                    Nisi, enim, arcu purus gravida adipiscing euismod
+                                    montes, duis egestas. Vehicula eu etiam quam
+                                    tristique tincidunt suspendisse ut consequat.</p>
+                                    <p>Ornare senectus fusce dignissim ut. Integer
+                                    consequat in eu tortor, faucibus et lacinia
+                                    posuere. Turpis sit viverra lorem suspendisse
+                                    lacus aliquam auctor vulputate. Quis egestas
+                                    aliquam nunc purus lacus, elit leo elit facilisi.
+                                    Dignissim amet adipiscing massa integer.</p>
+                            </div> 
                         </div>
-                            <div className="text1">
-                            <p>Nunc duis id aenean gravida tincidunt eu, tempor
-                                ullamcorper. Viverra aliquam arcu, viverra et,
-                                cursus. Aliquet pretium cursus adipiscing gravida
-                                et consequat lobortis arcu velit. Nibh pharetra
-                                fermentum duis accumsan lectus non. Massa
-                                cursus molestie lorem scelerisque pellentesque.
-                                Nisi, enim, arcu purus gravida adipiscing euismod
-                                montes, duis egestas. Vehicula eu etiam quam
-                                tristique tincidunt suspendisse ut consequat.</p>
-                            <p>Ornare senectus fusce dignissim ut. Integer
-                                consequat in eu tortor, faucibus et lacinia
-                                posuere. Turpis sit viverra lorem suspendisse
-                                lacus aliquam auctor vulputate. Quis egestas
-                                aliquam nunc purus lacus, elit leo elit facilisi.
-                                Dignissim amet adipiscing massa integer.</p>
-                        </div> 
-                        <div className="question2">
+                        <div className="question" id="question2">
                             <h4>What formats can I download my transaction history in?</h4>
                             <a className="discovermore" href="#">
                                 <span className="btn-circle">
@@ -46,7 +46,7 @@ const FaQ = () => {
                                 </span>
                             </a>
                         </div>
-                        <div className="question3">
+                        <div className="question" id="question3">
                             <h4>Can I schedule future transfers?</h4>
                             <a className="discovermore" href="#">
                                 <span className="btn-circle">
@@ -57,7 +57,7 @@ const FaQ = () => {
                         <div className="text3">
                             <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
                         </div>
-                        <div className="question4">
+                        <div className="question" id="question4">
                             <h4>When can I use Banking App services?</h4>
                             <a className="discovermore" href="#">
                                 <span className="btn-circle">
@@ -65,7 +65,7 @@ const FaQ = () => {
                                 </span>
                             </a>
                         </div> 
-                        <div className="question5">
+                        <div className="question" id="question5">
                             <h4>Can I create my own password that is easy for me to remember?</h4>
                             <a className="discovermore" href="#">
                                 <span className="btn-circle">
@@ -73,7 +73,7 @@ const FaQ = () => {
                                 </span>
                             </a>
                         </div>
-                        <div className="question6">
+                        <div className="question" id="question6">
                             <h4>What happens if I forget or lose my password?</h4>
                             <a className="discovermore" href="#">
                                 <span className="btn-circle">

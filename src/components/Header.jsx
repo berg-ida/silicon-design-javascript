@@ -1,27 +1,25 @@
 import React from 'react'
+import { Link, NavLink } from 'react-router-dom'
 import logo from '../images/logo.svg'
 import darkmodelogo from '../images/darkmode-logo.svg'
+import DarkModeSwitch from './DarkModeSwitch'
 
 
 const Header = () => {
   return (
     <header>
             <div className="container">
-    
-                <a id="logo" href="index.html"><img src={logo} alt="Silicon Design Logotype"/></a>
+
+                <Link id="logo" to="/">
+                    <img src={logo} alt="Silicon Design Logotype" />
+                </Link>
                 <a id="darkmode-logo" href="index.html"><img src={darkmodelogo} alt="Silicon Design Logotype"/></a>
                 <nav id="main-menu" className="navbar">
                     <a className="nav-link" href="#">Features</a>
-                    <a className="nav-link" href="contact.html">Contact</a>
+                    <NavLink className="nav-link" to="/contact">Contact</NavLink>
                 </nav>
     
-                <div id="darkmode-toggle-switch" className="btn-toggle-switch">
-                    <span className="label">Dark mode</span>
-                    <label for="darkmode-switch" aria-label="darkmode switch" className="toggle-switch">
-                        <input id="darkmode-switch" type="checkbox"/>
-                        <span className="slider round"></span>
-                    </label>
-                </div>
+                <DarkModeSwitch/>
     
                 <a id="auth-signin" href="#" className="btn-primary">
                     <i className="fa-regular fa-user"></i>
