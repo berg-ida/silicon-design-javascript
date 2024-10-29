@@ -2,86 +2,97 @@ import React from 'react'
 import phonecall from '../images/phonecall.svg'
 import message from '../images/message.svg'
 import notif from '../images/notification.svg'
+import FaqList from './FaqList'
 
 const FaQ = () => {
-  return (
+  
+  
+  
+    return (
     <section className="page5">
                 <section className="faq">
                     <div className="contact">
                         <h2>Any questions? Check out the FAQs</h2>
                         <p>Still have unanswered questions and need to get in touch?</p>
-                        
                     </div>
-                    <div className="questions">
+
+                    <FaqList/>
+
+                    {/* <div className="questions">
+
                         <div className="faq-card">
                             <div className="question" id="question1">
-                            <h4>Is any of my personal information stored in the App?</h4>
-                                <button className="btn-circle">
-                                    <i className="fa-solid fa-chevron-down"></i>
-                                </button>
+                                <h4>Is any of my personal information stored in the App?</h4>
+                                    <button className="btn-circle">
+                                        <i className="fa-solid fa-chevron-down"></i>
+                                    </button>
                             </div>
                                 <div className="answer" id="text1">
-                                    <p>Nunc duis id aenean gravida tincidunt eu, tempor
-                                    ullamcorper. Viverra aliquam arcu, viverra et,
-                                    cursus. Aliquet pretium cursus adipiscing gravida
-                                    et consequat lobortis arcu velit. Nibh pharetra
-                                    fermentum duis accumsan lectus non. Massa
-                                    cursus molestie lorem scelerisque pellentesque.
-                                    Nisi, enim, arcu purus gravida adipiscing euismod
-                                    montes, duis egestas. Vehicula eu etiam quam
-                                    tristique tincidunt suspendisse ut consequat.</p>
-                                    <p>Ornare senectus fusce dignissim ut. Integer
-                                    consequat in eu tortor, faucibus et lacinia
-                                    posuere. Turpis sit viverra lorem suspendisse
-                                    lacus aliquam auctor vulputate. Quis egestas
-                                    aliquam nunc purus lacus, elit leo elit facilisi.
-                                    Dignissim amet adipiscing massa integer.</p>
+                                    <p></p>
                             </div> 
                         </div>
-                        <div className="question" id="question2">
-                            <h4>What formats can I download my transaction history in?</h4>
-                            <a className="discovermore" href="#">
-                                <span className="btn-circle">
-                                    <i className="fa-solid fa-chevron-down"></i>
-                                </span>
-                            </a>
+
+                        <div className="faq-card">
+                            <div className="question" id="question2">
+                                <h4>What formats can I download my transaction history in?</h4>
+                                    <button className="btn-circle">
+                                        <i className="fa-solid fa-chevron-down"></i>
+                                    </button>
+                            </div>
+                            <div className="answer" id="text2">
+                                <p></p>
+                            </div>
                         </div>
-                        <div className="question" id="question3">
-                            <h4>Can I schedule future transfers?</h4>
-                            <a className="discovermore" href="#">
-                                <span className="btn-circle">
-                                    <i className="fa-solid fa-chevron-down"></i>
-                                </span>
-                            </a>
+                        
+                        <div className="faq-card">
+                            <div className="question" id="question3">
+                                <h4>Can I schedule future transfers?</h4>
+                                    <button className="btn-circle">
+                                        <i className="fa-solid fa-chevron-down"></i>
+                                    </button>
+                            </div>
+                            <div className="answer" id="text3">
+                                <p></p>
+                            </div>
                         </div>
-                        <div className="text3">
-                            <p>Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.</p>
+
+                        <div className="faq-card">
+                            <div className="question" id="question4">
+                                <h4>When can I use Banking App services?</h4>
+                                    <button className="btn-circle">
+                                        <i className="fa-solid fa-chevron-down"></i>
+                                    </button>
+                            </div> 
+                            <div className="answer" id="text4">
+                                <p></p>
+                            </div>
                         </div>
-                        <div className="question" id="question4">
-                            <h4>When can I use Banking App services?</h4>
-                            <a className="discovermore" href="#">
-                                <span className="btn-circle">
-                                    <i className="fa-solid fa-chevron-down"></i>
-                                </span>
-                            </a>
-                        </div> 
-                        <div className="question" id="question5">
-                            <h4>Can I create my own password that is easy for me to remember?</h4>
-                            <a className="discovermore" href="#">
-                                <span className="btn-circle">
-                                    <i className="fa-solid fa-chevron-down"></i>
-                                </span>
-                            </a>
+                        
+                        <div className="faq-card">
+                            <div className="question" id="question5">
+                                <h4>Can I create my own password that is easy for me to remember?</h4>
+                                    <button className="btn-circle">
+                                        <i className="fa-solid fa-chevron-down"></i>
+                                    </button>
+                            </div>
+                            <div className="answer" id="text5">
+                                <p></p>
+                            </div>
                         </div>
-                        <div className="question" id="question6">
-                            <h4>What happens if I forget or lose my password?</h4>
-                            <a className="discovermore" href="#">
-                                <span className="btn-circle">
-                                    <i className="fa-solid fa-chevron-down"></i>
-                                </span>
-                            </a>
+            
+                        <div className="faq-card">
+                            <div className="question" id="question6">
+                                <h4>What happens if I forget or lose my password?</h4>
+                                    <button className="btn-circle">
+                                        <i className="fa-solid fa-chevron-down"></i>
+                                    </button>
+                            </div>
+                            <div className="answer" id="text6">
+                                <p></p>
+                            </div>
                         </div>
-                    </div>
+                        
+                    </div> */}
                     <div className="contact-mobile">
                         <a id="contact" href="#" className="btn-primary">
                             <span>Contact us now</span>
@@ -106,6 +117,7 @@ const FaQ = () => {
                         </div>
                     </div>
                 </section>
+
                 <section className="newsletter">
                     <div className="notification">
                         <img id="notif" src={notif} alt="Notification Logo"/>
