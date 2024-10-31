@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import FaqItem from './FaqItem'
 import Accordion from './Accordion'
 
 const FaqList = () => {
