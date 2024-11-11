@@ -5,10 +5,10 @@ const TestimonialItem = ({item}) => {
   return (
     <div className="testimonial-card">
         <div className="item">
-            <img class="quotes" src={quotes} alt="" />
+            <img className="quotes" src={quotes} alt="" />
             <div className="star-rating">
                 {Array.from ({length: item.starRating}, (_, index) => (
-                    <i key={index} class="fa-solid fa-star"></i>
+                    <i key={index} className="fa-solid fa-star"></i>
                 ))}
             </div>
             <div className="comment">
@@ -16,7 +16,7 @@ const TestimonialItem = ({item}) => {
             </div>
             <div className="card-bottom">
                 <div className="avatar">
-                    <img src={item.avatarUrl} alt="" />
+                    <img src={item.avatarUrl} alt="Avatar image" />
                 </div>
                 <div className="author">
                     <p>{item.author}</p>
@@ -25,7 +25,7 @@ const TestimonialItem = ({item}) => {
                     <p>{item.jobRole}</p>
                 </div>
             </div>
-      </div>
+        </div>
     </div>
     
   )

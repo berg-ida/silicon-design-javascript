@@ -12,6 +12,7 @@ import Footer from '../components/Footer'
 const Home = () => {
   return (
     <>
+    <main>
       <Hero/>
       <Brands/>
       <AppFeatures/>
@@ -19,7 +20,8 @@ const Home = () => {
       <Payments/>
       <Testimonial/>
       <FaQ/>
-      <Footer/>
+    </main>
+    <Footer/>
     </>
   )
 }

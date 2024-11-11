@@ -40,7 +40,7 @@ const disableDarkMode = () => {
   return (
     <div id="darkmode-toggle-switch" className="btn-toggle-switch">
         <span className="label">Dark mode</span>
-        <label for="darkmode-switch" aria-label="darkmode switch" className="toggle-switch">
+        <label htmlFor="darkmode-switch" aria-label="darkmode switch" className="toggle-switch">
             <input id="darkmode-switch" type="checkbox" checked={isDarkMode} onChange={handleToggle}/>
             <span className="slider round"></span>
         </label>
