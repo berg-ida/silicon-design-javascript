@@ -13,7 +13,11 @@ const Header = () => {
             <Link id="logo" to="/">
                 <img src={logo} alt="Silicon Design Logotype" />
             </Link>
-            <a id="darkmode-logo" href="index.html"><img src={darkmodelogo} alt="Silicon Design Logotype"/></a>
+            
+            <Link id="darkmode-logo" to="/">
+                <img src={darkmodelogo} alt="Silicon Design Logotype"/>
+            </Link>
+            
             <nav id="main-menu" className="navbar">
                 <a className="nav-link" href="#">Features</a>
                 <NavLink className="nav-link" to="/contact">Contact</NavLink>

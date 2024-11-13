@@ -11,14 +11,16 @@ const ContactUs = () => {
         <div className="container">
             <nav id="main-menu" className="navbar">
                 <i className="fa-solid fa-house"></i>
-                <a className="nav-link-hp" href="index.html">Homepage</a>
+                <a className="nav-link-hp" href="Home.jsx">Homepage</a>
                 <i className="fa-solid fa-chevron-right"></i>
-                <a className="nav-link-c" href="contact.html">Contact</a>
+                <a className="nav-link-c" href="Contact.jsx">Contact</a>
             </nav>
         </div>
 
+        <h1 id="mobile">Contact Us</h1>
         <div id="cont" className="container">
             <h1>Contact Us</h1>
+            <div className="boxes">
             <div className="email">
                 <img src={email} alt="Email Icon"/>
                 <h2>Email Us</h2>
@@ -36,6 +38,7 @@ const ContactUs = () => {
                     <span>Send an application</span>
                     <i className="fa-solid fa-arrow-right"></i>
                 </a>
+            </div>
             </div>
 
            <Consultation/>

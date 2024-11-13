@@ -13,7 +13,7 @@ const Location = () => {
     <section className="contact-page2">
 
         <div className="container">
-            <img src={map} alt="Picture of Map"/>
+            <img id="map" src={map} alt="Picture of Map"/>
             <div className="text">
 
                 <div className="medical1">
@@ -37,7 +37,7 @@ const Location = () => {
                     <h2>Medical Center 2</h2>
                     <div className="map-pin">
                         <img id="map-pin" src={mappin} alt="Map pin icon"/>
-                        <p>2464 Royal Ln. Mesa,New Jersey 45463</p>
+                        <p>2464 Royal Ln. Mesa, New Jersey 45463</p>
                     </div>
                     <div className="phonecall">
                         <img id="phonecall" src={phonecall} alt="Phonecall icon"/>
@@ -50,7 +50,11 @@ const Location = () => {
                     </div>
                 </div>
 
-                <div className="social-media">
+
+            </div>
+
+        </div>
+        <div className="social-media">
                     <a id="facebook" href="#">
                         <img src={facebook} alt="Facebook Icon"/>
                     </a>
@@ -64,9 +68,6 @@ const Location = () => {
                         <img src={youtube} alt="Youtube Icon"/>
                     </a>
                 </div>
-
-            </div>
-        </div>
 
     </section>
   )
